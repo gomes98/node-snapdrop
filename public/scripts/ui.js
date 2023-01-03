@@ -624,10 +624,10 @@ Events.on('load', () => {
 });
 
 Notifications.PERMISSION_ERROR = `
-Notifications permission has been blocked
-as the user has dismissed the permission prompt several times.
-This can be reset in Page Info
-which can be accessed by clicking the lock icon next to the URL.`;
+A permissão de notificações foi bloqueada 
+porque o usuário dispensou o prompt de permissão várias vezes. 
+Isso pode ser redefinido em Informações da página, 
+que podem ser acessadas clicando no ícone de cadeado próximo ao URL.`;
 
 document.body.onclick = e => { // safari hack to fix audio
     document.body.onclick = null;
